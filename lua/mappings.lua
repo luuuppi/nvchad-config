@@ -7,6 +7,7 @@ map("i", "jj", "<ESC>")
 map("n", "<leader>cx", function()
   require("nvchad.tabufline").closeAllBufs()
 end, { desc = "Close other buffers" })
+map("i", "<C-H>", "<C-W>")
 
 -- Term
 map({ "n", "t" }, "<C-j>", function()
