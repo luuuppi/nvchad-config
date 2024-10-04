@@ -46,4 +46,9 @@ return {
     "nvim-telescope/telescope.nvim",
     opts = require "configs.telescope",
   },
+
+  {
+    "tpope/vim-fugitive",
+    cmd = "Git",
+  },
 }
