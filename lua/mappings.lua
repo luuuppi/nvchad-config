@@ -10,7 +10,7 @@ end, { desc = "Close other buffers" })
 map("i", "<C-H>", "<C-W>")
 
 -- Term
-map({ "n", "t" }, "<C-j>", function()
+map({ "n", "t" }, "<C-\\>", function()
   require("nvchad.term").toggle {
     pos = "sp",
     size = 0.4,
