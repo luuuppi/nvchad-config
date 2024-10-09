@@ -2,6 +2,7 @@ return {
   filters = {
     dotfiles = false,
     git_ignored = false,
+    custom = { "^\\.git" },
   },
   view = {
     number = true,
