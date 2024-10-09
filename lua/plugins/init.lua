@@ -24,12 +24,6 @@ return {
   },
 
   {
-    "windwp/nvim-ts-autotag",
-    lazy = false,
-    opts = require "configs.tsautotag",
-  },
-
-  {
     "nvim-tree/nvim-tree.lua",
     opts = require "configs.nvimtree",
   },
@@ -50,5 +44,19 @@ return {
   {
     "tpope/vim-fugitive",
     cmd = "Git",
+  },
+
+  {
+    "pmizio/typescript-tools.nvim",
+    lazy = false,
+    dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+    opts = {
+      settings = {
+        jsx_close_tag = {
+          enable = true,
+          filetypes = { "javascriptreact", "typescriptreact" },
+        },
+      },
+    },
   },
 }

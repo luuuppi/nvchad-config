@@ -5,7 +5,6 @@ return {
     "html-lsp",
     "css-lsp",
     "prettierd",
-    "typescript-language-server",
     "tailwindcss",
   },
 }
