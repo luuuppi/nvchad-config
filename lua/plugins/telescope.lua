@@ -10,7 +10,9 @@ return {
           },
         },
         file_ignore_patterns = {
-          "node_modules",
+          "^node_modules/",
+          "^.git/",
+        },
       },
       pickers = {
         find_files = {
