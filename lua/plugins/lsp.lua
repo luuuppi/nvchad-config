@@ -7,7 +7,7 @@ return {
 
     local lspconfig = require("lspconfig")
 
-    local servers = { "html", "cssls", "ts_ls", "tailwindcss" }
+    local servers = { "html", "cssls", "ts_ls", "tailwindcss", "eslint" }
 
     for _, lsp in ipairs(servers) do
       lspconfig[lsp].setup({
