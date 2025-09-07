@@ -44,7 +44,7 @@ M.ui = {
   },
   tabufline = {
     enabled = true,
-    lazyload = true,
+    lazyload = false,
   },
 }
 
